@@ -6,6 +6,7 @@ const pricingData = [
     id: 1,
     name: "Starter",
     price: 0,
+    isPopular: false,
     desc: "Best for learning and personal use",
     features: [
       "1 User Account",
@@ -35,6 +36,7 @@ const pricingData = [
     id: 2,
     name: "Growth",
     price: 19,
+    isPopular: false,
     desc: "For freelancers and small businesses",
     features: [
       "5 User Accounts",
@@ -65,6 +67,7 @@ const pricingData = [
     id: 3,
     name: "Scale",
     price: 49,
+    isPopular: false,
     desc: "Perfect for startups and growing teams",
     features: [
       "20 User Accounts",
@@ -95,6 +98,7 @@ const pricingData = [
   {
     id: 4,
     name: "Enterprise",
+    isPopular: true,
     price: 99,
     desc: "Advanced solution for large organizations",
     features: [
